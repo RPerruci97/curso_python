@@ -15,6 +15,6 @@ def par_impar(numero):
      
 
 print(par_impar(5))
-
+print(par_impar(6))
 
 
