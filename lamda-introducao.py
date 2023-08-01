@@ -6,10 +6,11 @@ lista = [
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
 
-l1 = sorted(lista, key=lambda item: item["nome"])
 
 def exibir(lista):
     for item in lista:
         print(item)
+
+l1 = sorted(lista, key=lambda item: item["nome"])
 
 exibir(l1)
